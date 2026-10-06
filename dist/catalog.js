@@ -71,6 +71,42 @@ const catalog = {
       "price": 100000,
       "original": 150000,
       "soldout": true
+    },
+    {
+      "id": 2514,
+      "name": "[이달의 와인] 1879 SC 샤도네이 750ml + 케이스별매",
+      "image": "assets/product-2541.jpg",
+      "url": "https://1879wine.shop/product/이달의-와인-1879-sc-샤도네이-750ml-케이스별매/2514/category/1/display/2/",
+      "price": 24000,
+      "original": 40000,
+      "soldout": false
+    },
+    {
+      "id": 2559,
+      "name": "[이달의 와인] 1879 S 까베르네쇼비뇽 750ml + 케이스별매",
+      "image": "assets/product-2539.jpg",
+      "url": "https://1879wine.shop/product/이달의와인-1879-s-까베르네쇼비뇽-750ml-케이스별매/2559/category/1/display/2/",
+      "price": 24000,
+      "original": 40000,
+      "soldout": false
+    },
+    {
+      "id": 2560,
+      "name": "[이달의 와인] 1879 D 돌체 볼로 750ml + 케이스별매",
+      "image": "assets/product-2543.jpg",
+      "url": "https://1879wine.shop/product/이달의와인-1879-d-돌체-볼로-750ml-케이스별매/2560/category/1/display/2/",
+      "price": 33000,
+      "original": 55000,
+      "soldout": false
+    },
+    {
+      "id": 2561,
+      "name": "[이달의 와인] 1879 G 모스카토 750ml + 케이스별매",
+      "image": "assets/product-2545.jpg",
+      "url": "https://1879wine.shop/product/이달의와인-1879-g-모스카토-750ml-케이스별매/2561/category/1/display/2/",
+      "price": 27000,
+      "original": 45000,
+      "soldout": false
     }
   ],
   "slides": [
