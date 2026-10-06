@@ -12,3 +12,8 @@ $('#menu-toggle').onclick=()=>{const open=$('#nav').classList.toggle('expanded')
 $('#export').onclick=()=>{let total=0;const lines=[...cart].map(([id,qty])=>{const w=catalog.products.find(w=>w.id===id);total+=w.price*qty;return `${w.name} × ${qty}: ${money(w.price*qty)} (품절)\n${w.url}`});const blob=new Blob(['\uFEFF1879 와인 상품 목록\n\n'+lines.join('\n\n')+'\n\n합계: '+money(total)+'\n확인일: 2026.09.13\n미리보기용 목록이며 주문이나 결제가 접수되지 않았습니다.'],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='1879-wine-list.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};renderCart();
 
 
+
+// Show the contact popup on arrival; the floating button opens it again.
+const contactDialog = $('#contact');
+$('#open-contact').onclick = () => contactDialog.showModal();
+contactDialog.showModal();
